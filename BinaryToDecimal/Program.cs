@@ -85,7 +85,7 @@ class ConversorDecimalBinario
         for (int i = 0; i < binarioNum.Length; i++)
         {
             int digito = int.Parse(binarioNum[i].ToString());
-            decimalNum += digito * (int)Math.Pow(2, expoente); //Math.Pow define a base e o expoente, à esquerda e à direita respectivamente
+            decimalNum += digito * (int)Math.Pow(2, expoente); //Math.Pow define a base à esquerda e o expoente à direita
             expoente--;
         }
 
